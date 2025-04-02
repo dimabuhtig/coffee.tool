@@ -17,6 +17,7 @@ public class coffdataprovider
         {
             new CofeeShop("adin",1),
             new CofeeShop("dwa4",4),
+            new CofeeShop("direct",44),
             new CofeeShop("semi",7)
         };
     }
