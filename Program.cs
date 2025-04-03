@@ -9,7 +9,9 @@
         while (true)
         {
             var command = Console.ReadLine();
+
             if (string.Equals("q", command, StringComparison.OrdinalIgnoreCase)) break;
+
             else { Console.WriteLine($"  it   is   er   {command} "); };
         }
     }
