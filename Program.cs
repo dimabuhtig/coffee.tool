@@ -1,18 +1,17 @@
-﻿internal class Program
+﻿using coffee.tool.Data;
+
+Console.WriteLine("Hello, World!");
+
+Console.WriteLine("q for exit");
+Console.WriteLine("h for help");
+
+
+while (true)
 {
-    private static void Main(string[] args)
-    {
-        Console.WriteLine("Hello, World!");
+    var command = Console.ReadLine();
 
-        Console.WriteLine("q");
-        Console.WriteLine("for exit");
-        while (true)
-        {
-            var command = Console.ReadLine();
+    if (string.Equals("q", command, StringComparison.OrdinalIgnoreCase)) break;
 
-            if (string.Equals("q", command, StringComparison.OrdinalIgnoreCase)) break;
-
-            else { Console.WriteLine($"  it   is   er   {command} "); };
-        }
-    }
+    else { Console.WriteLine($"  it   is   er   {command} "); };
 }
+
