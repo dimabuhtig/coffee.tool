@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using coffee.tool.Data;
+﻿using coffee.tool.Data;
 
 Console.WriteLine("Hello, World!");
 
