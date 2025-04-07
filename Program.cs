@@ -1,7 +1,7 @@
 ﻿using coffee.tool.Data;
-
+Console.WriteLine("-------------");
 Console.WriteLine("Hello, World!");
-
+Console.WriteLine("-------------");
 Console.WriteLine("q for exit");
 Console.WriteLine("h for help");
 
