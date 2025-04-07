@@ -8,6 +8,10 @@ Console.WriteLine("h for help");
 while (true)
 {
     var command = Console.ReadLine();
+
+    if (string.Equals("q", command, StringComparison.OrdinalIgnoreCase)) break;
+
+    else { Console.WriteLine($"  it   is   er   {command} "); };
     if (string.Equals("h", command, StringComparison.OrdinalIgnoreCase)) Console.WriteLine("h for help");
     if (string.Equals("q", command, StringComparison.OrdinalIgnoreCase)) break;
     if (string.Equals("s", command, StringComparison.OrdinalIgnoreCase)) 
@@ -19,3 +23,4 @@ while (true)
         }
     }
 }
+
